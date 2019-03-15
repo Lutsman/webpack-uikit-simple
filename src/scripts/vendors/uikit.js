@@ -6,7 +6,7 @@ $(() => {
         $togglers.each(function () {
             const $toggler = $(this);
             const $target = $(getTarget($toggler));
-            const activeClassName = 'tm-toggle-active';
+            const activeClassName = 'uk-active';
 
             $target.on({
                 'shown': function () {
